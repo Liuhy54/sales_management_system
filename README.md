@@ -29,3 +29,9 @@
 通过总体的功能设计，客户管理系统实现了对销售机会的增删改查，同时也完成了客户经理和销售主管之间的交互。同时经过总体功能设计后，把页面分为三个不同页面的设计，把每个页面操作都尽可能的进行简化，提升用户的操作便利性让用户称心满意。其功能设计图如图所示。
 
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture12763.png)
+
+#### 2) 子功能模块设计
+##### a.销售机会管理
+在该功能中，用户可以进行注册以及登录操作。首先用户进行用户类型选择及注册，注册成功后进行登录操作，在此操作成功后进入到本系统中。当用户选择销售主管进入系统后可以进行新增、修改和删除销售机会等活动，经过这一系列操作后可以退出系统该活动结束。
+
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture12957.png)
