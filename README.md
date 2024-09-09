@@ -106,3 +106,23 @@
 客户管理模块，分为客户信息管理和管理客户联系人（客户信息管理子模块）两大模块。
 
 #### 4.1.2.1  客户信息管理
+（1）业务描述：包括客户新增，修改，删除功能。
+
+（2）使用者：客户经理
+
+（3）处理流程
+
+①新增客户。弹出新增窗口,按要求输入相关信息,点击保存按钮,插入数据库。
+
+②修改客户。首先显示客户列表，选择一个客户，点击编辑按钮，弹出窗口显示客户信息,按需要修改相关信息,点击保存按钮,修改数据库中对应客户编号的信息。
+
+③ 删除客户。首先显示客户列表，选择需要删除的客户，可多选，然后点击然后弹出确认提示,点击确认则删除数据库对应编号的客户,点击取消放弃删除。
+
+（5）输出要素客户信息保存到客户表
+
+展示页面：
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17057.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17059.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17061.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17077.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17079.png)
