@@ -1,6 +1,6 @@
 # 销售机会管理平台
 
-> 作者：iuhy
+> 作者：Liuhy
 
 ## 项目简介
 
@@ -102,10 +102,10 @@
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16730.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16732.png)
 
-#### 4.1.2 客户管理模块
+#### 4.3 客户管理模块
 客户管理模块，分为客户信息管理和管理客户联系人（客户信息管理子模块）两大模块。
 
-#### 4.1.2.1  客户信息管理
+#### 4.3.1  客户信息管理
 （1）业务描述：包括客户新增，修改，删除功能。
 
 （2）使用者：客户经理
@@ -124,5 +124,50 @@
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17057.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17059.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17061.png)
+
+核心代码：
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17077.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17079.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17081.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17083.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16695.png)
+
+#### 4.3.2 管理客户联系人
+（1）业务描述：每个客户可以有多个联系人
+
+（2）使用者：客户经理
+
+（3）处理流程：选择一个客户，显示其所有联系人的列表.从中选择要编辑和删除操作,还可以给该客户添加联系人。
+
+（4）输出要素客户联系人信息。
+
+展示页面：
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17202.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17204.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17207.png)
+
+
+核心代码：
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17223.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17225.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17228.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17231.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17234.png)
+
+
+#### 4.4 报表模块
+(1) 客户等级报表：根据客户的优先程度进行划分，利用图表的形式可视化客户的等级分布。
+
+(2) 客户地区报表：根基客户所在地区进行展示，利用图表的形式可视化客户的地区分布。
+
+(3) 客户行业报表：根基客户所在行业进行展示，利用图表的形式可视化客户的行业分布。
+
+展示页面：
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17385.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17386.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17387.png)
+
+核心代码：
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17399.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17401.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17402.png)
