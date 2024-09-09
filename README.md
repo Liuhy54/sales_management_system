@@ -46,11 +46,63 @@
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture13749.png)
 
 ### 4项目展示
-#### 4.1 系统前台基本功能实现
-##### 4.1.1 用户注册登录模块
-###### 4.1.1.1 注册界面：
+##### 4.1 用户注册登录模块
+###### 4.1.1 注册界面：
 
 使用者点击注册。在提交信息以后就会进行相应的信息确认，弹出注册成功信息，用户提交的信息就会被存入数据库中。如果内容填写有误，系统会提示出错，使用者可重新修改，再次提交。
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture15947.png)
 核心代码
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture15986.png)
+
+###### 4.1.2 登录界面：
+当用户进入网站，打开登录页面，用户需要登录成功后才能进入首页，系统验证输入的用户名和密码，与库中数据是否一致，若一致，则登陆成功，即可进入首页，否则弹出错误“用户不存才”或密码错误。
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16124.png)
+核心代码
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16137.png)
+
+##### 4.2 营销管理模块
+
+（1）业务描述
+
+该模块包含销售机会的新增，修改，删除和指派功能
+
+（2）使用者
+
+销售主管、客户经理
+
+（3）输入要素
+
+字段名：编号，客户名称，机会来源，联系人，联系方式，成功几率(%)，机会信息,机会描述,创建人,创建时间,指派给,指派时间,状态机会来源：促销、广告、搜索引擎、线上咨询、电话咨询、邮件咨询、客户介绍销售机会的状态为:未分配、已分配、开发成功、开发失败
+
+（4） 处理流程
+
+① 新增销售机会。在新增页面中输入信息，其中创建人和创建时间不需要在新增时输入,创建人根据登录用户自动获取,创建时间自动获取系统时间。点击保存后把信息存入数据库。
+
+②修改销售机会。在销售机会列表中选择要修改的销售机会，点击修改按钮,弹出修改界面,修改需要修改的信息,然后点击保存按钮,修改数据保存到数据库。注意，只有未指派的销售机会才可以修改。
+
+③删除销售机会。状态为：“未指派”的销售机会可以删除，删除的时候盂要判断当前登录用户为该销售机会的创建人,否则是不可以删除的。
+
+④(修改)指派销售机会。销售主管对销售机会进行分派,每一个销售机会分派给一个客户经理，指派成功后，销售机会状态为“已指派”。
+
+（5）输出要素在 sale_chance 表保存数据
+
+展示页面：
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16693.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16695.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16697.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16699.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16701.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16703.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16705.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16707.png)
+
+核心代码
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16726.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16728.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16730.png)
+![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16732.png)
+
+#### 4.1.2 客户管理模块
+客户管理模块，分为客户信息管理和管理客户联系人（客户信息管理子模块）两大模块。
+
+#### 4.1.2.1  客户信息管理
