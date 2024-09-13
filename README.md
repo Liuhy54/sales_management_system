@@ -54,6 +54,7 @@
 
 ##### 3.2.2 客户信息管理
 在客户经理的功能中，客户信息管理主要对现有客户的信息进行管理，可以进行客户信息的及时更新。在该功能中，用户可以对客户的个人信息进行修改以及查看操作。首先客户经理在登录到系统后，打开客户信息管理页面，在此页面中可以修改客户资料、查看客户的联系人资料操作，在完成操作后可以退出系统该活动结束。
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture13145.png)
 
 ### 3.3 系统E-R图
@@ -66,14 +67,18 @@
 ###### 4.1.1 注册界面：
 
 使用者点击注册。在提交信息以后就会进行相应的信息确认，弹出注册成功信息，用户提交的信息就会被存入数据库中。如果内容填写有误，系统会提示出错，使用者可重新修改，再次提交。
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture15947.png)
 核心代码
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture15986.png)
 
 ###### 4.1.2 登录界面：
 当用户进入网站，打开登录页面，用户需要登录成功后才能进入首页，系统验证输入的用户名和密码，与库中数据是否一致，若一致，则登陆成功，即可进入首页，否则弹出错误“用户不存才”或密码错误。
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16124.png)
 核心代码
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16137.png)
 
 ##### 4.2 营销管理模块
@@ -103,6 +108,7 @@
 （5）输出要素在 sale_chance 表保存数据
 
 展示页面：
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16693.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16695.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16697.png)
@@ -113,6 +119,7 @@
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16707.png)
 
 核心代码
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16726.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16728.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture16730.png)
@@ -137,11 +144,13 @@
 （5）输出要素客户信息保存到客户表
 
 展示页面：
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17057.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17059.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17061.png)
 
 核心代码：
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17077.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17079.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17081.png)
@@ -158,12 +167,14 @@
 （4）输出要素客户联系人信息。
 
 展示页面：
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17202.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17204.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17207.png)
 
 
 核心代码：
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17223.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17225.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17228.png)
@@ -179,11 +190,13 @@
 (3) 客户行业报表：根基客户所在行业进行展示，利用图表的形式可视化客户的行业分布。
 
 展示页面：
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17385.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17386.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17387.png)
 
 核心代码：
+
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17399.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17401.png)
 ![](https://raw.githubusercontent.com/Liuhy54/sales_management_system/sys-picture/sys-picture17402.png)
